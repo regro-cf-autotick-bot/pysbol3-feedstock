@@ -1,12 +1,12 @@
 {% set name = "pysbol3" %}
-{% set version = "v1.0.1" %}
+{% set version = "1.0.1" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://github.com/SynBioDex/pySBOL3/archive/{{ version }}.tar.gz
+  url: https://github.com/SynBioDex/pySBOL3/archive/v{{ version }}.tar.gz
   sha256: 2f2c8305497a09677b4c1fb23219d8e1529e1be866ecf3d3973fff23c884630c
 
 build:
@@ -39,7 +39,7 @@ test:
 
 about:
   home: https://github.com/SynBioDex/pySBOL3
-  summary: "Pure Python implementation of SBOL 3 standard"
+  summary: Pure Python implementation of SBOL 3 standard
   license: MIT
   license_file: LICENSE.txt
 
