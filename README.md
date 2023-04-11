@@ -1,11 +1,11 @@
-About pysbol3
-=============
+About pysbol3-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pysbol3-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/SynBioDex/pySBOL3
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pysbol3-feedstock/blob/main/LICENSE.txt)
 
 Summary: Pure Python implementation of SBOL 3 standard
 
